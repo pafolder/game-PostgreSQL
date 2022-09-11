@@ -1,5 +1,7 @@
 package com.game.controller;
 
+// This text I added to a master branch file to merge the changes afterwards
+
 import com.game.entity.Player;
 import com.game.entity.Profession;
 import com.game.entity.Race;
