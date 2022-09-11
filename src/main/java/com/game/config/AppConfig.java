@@ -44,6 +44,8 @@ public class AppConfig {
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
+// I've wrote this comment just to test the new branch in the VCS git
+// This is for new branch "postg"
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:postgresql://localhost:5432/rpg");
         dataSource.setUsername("root");
